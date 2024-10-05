@@ -1,0 +1,267 @@
+.topnavbar {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Navtxt {
+  font-family: "Rubik Mono One", monospace;
+  color: #cfd6ea;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 11.5vw;
+  padding-right: 11.5vw;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.hoverbox {
+  background-color: #333;
+  width: 25vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoverbox:hover {
+  background-color: #cfd6ea;
+}
+.Navtxt:hover {
+  color: #333;
+}
+
+.section1 {
+  width: 100vw;
+  height: 40vh;
+  background-color: #b0b2b8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.section2 {
+  width: 100vw;
+  height: 40vh;
+  background-color: #cfd6ea;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mainbody {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homebody {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 50vh;
+  height: 40vh;
+}
+.classimg {
+  width: 60vh;
+  height: 27.5vh;
+  margin-right: 5vw;
+}
+
+.squareimg {
+  width: 40vh;
+  height: 40vh;
+}
+
+.txtdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 40vh;
+}
+.txtdivhome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 25vh;
+}
+
+.txtdiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 40vh;
+}
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 40vh;
+}
+
+.bodytxt {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  text-align: center;
+  font-size: medium;
+}
+
+.center1 {
+  width: 100vw;
+  height: 40vh;
+  background-color: #b0b2b8;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeTitle {
+  width: 100vw;
+  height: 20vh;
+  background-color: #cfd6ea;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.center2 {
+  width: 100vw;
+  height: 40vh;
+  background-color: #cfd6ea;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.hometxt {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  text-align: center;
+  font-size: x-large;
+}
+
+.hometitle {
+  font-family: "Rubik Mono One", monospace;
+  color: #333;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  text-align: center;
+  font-size: xx-large;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media all and (max-width: 850px) {
+  .section1 {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .section2 {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .txtdiv2 {
+    height: 80vh;
+  }
+  .center2 {
+    height: 100vh;
+  }
+
+  .txtdiv {
+    height: 50vh;
+  }
+
+  .imgdiv {
+    height: 50vh;
+  }
+
+  .squareimg {
+    width: 45vw;
+    height: 45vw;
+  }
+
+  .txtdiv {
+    width: 80vw;
+    height: 35vh;
+  }
+
+  .img {
+    width: 75vw;
+    height: 50vw;
+  }
+  .classimg {
+    width: 70vw;
+    height: 40vw;
+  }
+  .Navtxt {
+    font-size: small;
+  }
+  .mainbody {
+    height: 300vh;
+  }
+}
